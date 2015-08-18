@@ -36,8 +36,13 @@ Vagrant.configure(2) do |config|
     pip install pelican markdown
   fi
 
+  # bootstrap
   #cd /vagrant
   #pelican-quickstart
+  
+  # allow all connections
+  #iptables -I INPUT -j ACCEPT
+  #iptables-save | sudo tee /etc/sysconfig/iptables
 
   SCRIPT
 
