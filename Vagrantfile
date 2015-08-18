@@ -34,8 +34,8 @@ Vagrant.configure(2) do |config|
     pip install pelican markdown
   fi
 
-  cd /vagrant
-  pelican-quickstart
+  #cd /vagrant
+  #pelican-quickstart
 
   SCRIPT
 
