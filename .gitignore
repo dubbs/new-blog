@@ -1,2 +1,4 @@
 *.swp
+*.pid
+*.pyc
 .vagrant/

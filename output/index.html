@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Loading clever subtitle...</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Loading clever subtitle... </a></h1>
+                <nav><ul>
+                    <li><a href="/category/unix-mysql.html">unix, mysql</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/mysql-importexport-progress-bar.html">MySQL Import/Export Progress Bar</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2013-09-05T22:05:00-06:00">
+                Published: Thu 05 September 2013
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/kevin-warrington.html">Kevin Warrington</a>
+        </address>
+<p>In <a href="/category/unix-mysql.html">unix, mysql</a>.</p>
+
+</footer><!-- /.post-info --><p>MySQL command line progress can be monitored using the terminal-based "Pipe Viewer" <code>pv</code>.</p>
+<h2>Import</h2>
+<div class="highlight"><pre>pv /path/to/sqlfile.sql | mysql -uUSERNAME -pPASSWORD -D DATABASE_NAME
+</pre></div>
+
+
+<h2>Export</h2>
+<p>We need to estimate the file size of our export to get an accurate reading.  This can be done via the information schema:</p>
+<div class="highlight"><pre>SELECT
+    Data_BB / POWER(1024,1) Data_KB,
+    Data_BB / POWER(1024,2) Data_MB,
+    Data_BB / POWER(1024,3) Data_GB
+FROM (
+    SELECT SUM(data_length) Data_BB
+    FROM information_schema.tables
+    WHERE table_schema IN (&#39;DATABASE_NAME&#39;)
+) A;
+</pre></div>
+
+
+<p>We then use the estimated size to track export progress: </p>
+<div class="highlight"><pre>mysqldump -uUSERNAME -pPASSWORD DATABASE_NAME | pv -s 9999M &gt; DATABASE_NAME.sql
+</pre></div>
+
+
+<p>Beer Break!</p>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

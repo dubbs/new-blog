@@ -3,6 +3,8 @@
 Vagrant.configure(2) do |config|
 
   config.vm.box = "dubbs/centos-6.6"
+  config.vm.network "forwarded_port", guest: 8000, host: 8008, auto_correct: true
+  config.vm.network "private_network", ip: "192.168.50.4"
 
   $script = <<-SCRIPT
 
