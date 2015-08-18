@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>MySQL Import/Export Progress Bar</title>
+        <title>Loading clever subtitle... - Programming</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
 
         <!--[if IE]>
@@ -17,15 +17,10 @@
                     <li class="active"><a href="/category/programming.html">Programming</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="/mysql-importexport-progress-bar.html" rel="bookmark"
-           title="Permalink to MySQL Import/Export Progress Bar">MySQL Import/Export Progress Bar</a></h1>
-    </header>
 
-    <div class="entry-content">
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/mysql-importexport-progress-bar.html">MySQL Import/Export Progress Bar</a></h1>
 <footer class="post-info">
         <abbr class="published" title="2013-09-05T22:05:00-06:00">
                 Published: Thu 05 September 2013
@@ -40,7 +35,7 @@
         </address>
 <p>In <a href="/category/programming.html">Programming</a>.</p>
 <p>tags: <a href="/tag/unix.html">unix</a> <a href="/tag/sql.html">sql</a> </p>
-</footer><!-- /.post-info -->      <p>MySQL command line progress can be monitored using the terminal-based "Pipe Viewer" <code>pv</code>.</p>
+</footer><!-- /.post-info --><p>MySQL command line progress can be monitored using the terminal-based "Pipe Viewer" <code>pv</code>.</p>
 <h2>Import</h2>
 <div class="highlight"><pre>pv /path/to/sqlfile.sql <span class="p">|</span> mysql -uUSERNAME -pPASSWORD -D DATABASE_NAME
 </pre></div>
@@ -62,11 +57,8 @@
 
 <p>We then use the estimated size to track export progress: </p>
 <div class="highlight"><pre>mysqldump -uUSERNAME -pPASSWORD DATABASE_NAME <span class="p">|</span> pv -s 9999M &gt; DATABASE_NAME.sql
-</pre></div>
-    </div><!-- /.entry-content -->
-
-  </article>
-</section>
+</pre></div>                </article>
+            </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>

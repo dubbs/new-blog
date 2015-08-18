@@ -14,7 +14,7 @@
         <header id="banner" class="body">
                 <h1><a href="/">Loading clever subtitle... </a></h1>
                 <nav><ul>
-                    <li><a href="/category/unix-mysql.html">unix, mysql</a></li>
+                    <li><a href="/category/programming.html">Programming</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
@@ -25,38 +25,39 @@
         <abbr class="published" title="2013-09-05T22:05:00-06:00">
                 Published: Thu 05 September 2013
         </abbr>
+		<br />
+        <abbr class="modified" title="2013-09-05T22:05:00-06:00">
+                Updated: Thu 05 September 2013
+        </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="/author/kevin-warrington.html">Kevin Warrington</a>
         </address>
-<p>In <a href="/category/unix-mysql.html">unix, mysql</a>.</p>
-
+<p>In <a href="/category/programming.html">Programming</a>.</p>
+<p>tags: <a href="/tag/unix.html">unix</a> <a href="/tag/sql.html">sql</a> </p>
 </footer><!-- /.post-info --><p>MySQL command line progress can be monitored using the terminal-based "Pipe Viewer" <code>pv</code>.</p>
 <h2>Import</h2>
-<div class="highlight"><pre>pv /path/to/sqlfile.sql | mysql -uUSERNAME -pPASSWORD -D DATABASE_NAME
+<div class="highlight"><pre>pv /path/to/sqlfile.sql <span class="p">|</span> mysql -uUSERNAME -pPASSWORD -D DATABASE_NAME
 </pre></div>
 
 
 <h2>Export</h2>
 <p>We need to estimate the file size of our export to get an accurate reading.  This can be done via the information schema:</p>
-<div class="highlight"><pre>SELECT
-    Data_BB / POWER(1024,1) Data_KB,
-    Data_BB / POWER(1024,2) Data_MB,
-    Data_BB / POWER(1024,3) Data_GB
-FROM (
-    SELECT SUM(data_length) Data_BB
-    FROM information_schema.tables
-    WHERE table_schema IN (&#39;DATABASE_NAME&#39;)
-) A;
+<div class="highlight"><pre><span class="k">SELECT</span>
+  <span class="n">Data_BB</span> <span class="o">/</span> <span class="n">POWER</span><span class="p">(</span><span class="mi">1024</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span> <span class="n">Data_KB</span><span class="p">,</span>
+  <span class="n">Data_BB</span> <span class="o">/</span> <span class="n">POWER</span><span class="p">(</span><span class="mi">1024</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span> <span class="n">Data_MB</span><span class="p">,</span>
+  <span class="n">Data_BB</span> <span class="o">/</span> <span class="n">POWER</span><span class="p">(</span><span class="mi">1024</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span> <span class="n">Data_GB</span>
+<span class="k">FROM</span> <span class="p">(</span>
+  <span class="k">SELECT</span> <span class="k">SUM</span><span class="p">(</span><span class="n">data_length</span><span class="p">)</span> <span class="n">Data_BB</span>
+  <span class="k">FROM</span> <span class="n">information_schema</span><span class="p">.</span><span class="n">tables</span>
+  <span class="k">WHERE</span> <span class="n">table_schema</span> <span class="k">IN</span> <span class="p">(</span><span class="s1">&#39;DATABASE_NAME&#39;</span><span class="p">)</span>
+<span class="p">)</span> <span class="n">A</span><span class="p">;</span>
 </pre></div>
 
 
 <p>We then use the estimated size to track export progress: </p>
-<div class="highlight"><pre>mysqldump -uUSERNAME -pPASSWORD DATABASE_NAME | pv -s 9999M &gt; DATABASE_NAME.sql
-</pre></div>
-
-
-<p>Beer Break!</p>                </article>
+<div class="highlight"><pre>mysqldump -uUSERNAME -pPASSWORD DATABASE_NAME <span class="p">|</span> pv -s 9999M &gt; DATABASE_NAME.sql
+</pre></div>                </article>
             </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="blogroll">
