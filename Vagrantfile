@@ -21,12 +21,10 @@ Vagrant.configure(2) do |config|
     printf 'export PATH="$HOME/.pyenv/bin:$PATH"\n' >> $HOME/.bash_profile
     printf 'eval "$(pyenv init -)"\n'               >> $HOME/.bash_profile
     printf 'eval "$(pyenv virtualenv-init -)"\n'    >> $HOME/.bash_profile
-  fi
-
-  pyenv versions|grep 2.7 > /dev/null
-  if [ $? -ne 0 ];then
+    source $HOME/.bash_profile
     pyenv install 2.7.10
     printf 'pyenv global 2.7.10' >> $HOME/.bash_profile
+    source $HOME/.bash_profile
   fi
 
   if [ ! -f /vagrant/.python-version ];then
