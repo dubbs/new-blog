@@ -1,11 +1,8 @@
----
-layout: post
-title: "Git Snippets"
-date: 2015-02-07 13:11:08 -0600
-updated: 2015-02-07 13:11:08 -0600
-comments: true
-categories: [git]
----
+Title: Git Snippets
+Date: 2015-02-07 13:11:08 -0600
+Modified: 2015-02-07 13:11:08 -0600
+Category: Programming
+Tags: git
 
 #### Sort branches by last commit
 ``` bash

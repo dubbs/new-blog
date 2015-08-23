@@ -1,11 +1,8 @@
----
-layout: post
-title: "How to Create a CentOS 6 VirtualBox Provider for Vagrant"
-date: 2015-07-23 11:40:14 -0600
-modified: 2015-07-23 11:40:14 -0600
-comments: true
-categories: [centos, virtualbox, vagrant]
----
+Title: How to Create a CentOS 6 VirtualBox Provider for Vagrant
+Date: 2015-07-23 11:40:14 -0600
+Modified: 2015-07-23 11:40:14 -0600
+Category: Programming
+Tags: centos, virtualbox, vagrant
 
 ## Install VirtualBox 4.3.30 on host
 ```bash

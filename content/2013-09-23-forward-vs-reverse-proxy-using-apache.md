@@ -1,11 +1,8 @@
----
-layout: post
-title: "Forward vs Reverse Proxy using Apache"
-date: 2013-09-23 13:09
-updated: 2013-09-23 13:09
-comments: true
-categories: apache
----
+Title: Forward vs Reverse Proxy using Apache
+Date: 2013-09-23 13:09
+Modified: 2013-09-23 13:09
+Category: Programming
+Tags: apache
 
 A proxy server acts as an intermediary between a client and a destination server, primarily controlling access to resources and caching content.
  

@@ -1,11 +1,8 @@
----
-layout: post
-title: "Executing Shell Scripts"
-date: 2014-03-18 23:53
-updated: 2014-03-18 23:53
-comments: true
-categories: [unix, mac]
----
+Title: Executing Shell Scripts
+Date: 2014-03-18 23:53
+Modified: 2014-03-18 23:53
+Category: Programming
+Tags: unix, mac
 
 Here are some of the basic ways you can execute scripts on the command line.
 

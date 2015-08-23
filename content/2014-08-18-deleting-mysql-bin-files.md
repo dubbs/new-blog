@@ -1,11 +1,8 @@
----
-layout: post
-title: "Deleting MySQL bin files"
-date: 2014-08-18 15:25
-updated: 2014-08-18 15:25
-comments: true
-categories: [unix, mysql]
----
+Title: Deleting MySQL bin files
+Date: 2014-08-18 15:25
+Modified: 2014-08-18 15:25
+Category: Programming
+Tags: unix, mysql
 
 To view your current bin files:
 

@@ -1,11 +1,8 @@
----
-layout: post
-title: "Shell Modes and Init Files"
-date: 2014-03-19 23:20
-updated: 2014-10-10 17:52
-comments: true
-categories: [unix, mac]
----
+Title: Shell Modes and Init Files
+Date: 2014-03-19 23:20
+Modified: 2014-10-10 17:52
+Category: Programming
+Tags: unix, mac
 
 ## Modes
 

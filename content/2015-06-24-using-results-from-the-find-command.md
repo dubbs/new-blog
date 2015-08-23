@@ -1,11 +1,8 @@
----
-layout: post
-title: "Using results from the find command"
-date: 2015-06-24 16:42:23 -0600
-modified: 2015-06-24 16:42:23 -0600
-comments: true
-categories: [unix]
----
+Title: Using results from the find command
+Date: 2015-06-24 16:42:23 -0600
+Modified: 2015-06-24 16:42:23 -0600
+Category: Programming
+Tags: unix
 
 The following will find all `.patch` files and copy them to some directory:
 

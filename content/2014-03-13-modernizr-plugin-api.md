@@ -1,11 +1,8 @@
----
-layout: post
-title: "Modernizr Plugin API"
-date: 2014-03-13 16:22
-updated: 2014-03-13 16:22
-comments: true
-categories: js
----
+Title: Modernizr Plugin API
+Date: 2014-03-13 16:22
+Modified: 2014-03-13 16:22
+Category: Programming
+Tags: js
 
 Modernizr provides a great plugin API, where custom tests can be added, for features that are currently not supported.
 

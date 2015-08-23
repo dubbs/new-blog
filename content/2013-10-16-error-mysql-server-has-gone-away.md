@@ -1,11 +1,8 @@
----
-layout: post
-title: "Error: MySQL server has gone away"
-date: 2013-10-16 13:17
-updated: 2013-10-16 13:17
-comments: true
-categories: [error, mysql]
----
+Title: Error: MySQL server has gone away
+Date: 2013-10-16 13:17
+Modified: 2013-10-16 13:17
+Category: Programming
+Tags: error, mysql
 
 When trying to create a new mysql user, I came across the error:
 

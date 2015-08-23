@@ -1,11 +1,8 @@
----
-layout: post
-title: "Clear the DNS Cache"
-date: 2014-09-04 12:55:27 -0600
-updated: 2014-09-04 12:55:27 -0600
-comments: true
-categories: [mac, dns]
----
+Title: Clear the DNS Cache
+Date: 2014-09-04 12:55:27 -0600
+Modified: 2014-09-04 12:55:27 -0600
+Category: Programming
+Tags: mac, dns
 
 You've updated `/etc/hosts` and your changes aren't reflected in Google Chrome.  Try clearing the DNS cache.
 

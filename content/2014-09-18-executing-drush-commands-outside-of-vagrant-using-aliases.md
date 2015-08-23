@@ -1,11 +1,8 @@
----
-layout: post
-title: "Executing Drush Commands outside of Vagrant using Aliases"
-date: 2014-09-18 11:17:42 -0600
-updated: 2014-09-11 11:14:59 -0600
-comments: true
-categories: [drush, drupal, ssh]
----
+Title: Executing Drush Commands outside of Vagrant using Aliases
+Date: 2014-09-18 11:17:42 -0600
+Modified: 2014-09-11 11:14:59 -0600
+Category: Programming
+Tags: drush, drupal, ssh
 
 Drush aliases make it possible to run commands from outside your
 vagrant box, and even outside of your project directory.

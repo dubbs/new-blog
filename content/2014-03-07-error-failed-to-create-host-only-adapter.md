@@ -1,11 +1,8 @@
----
-layout: post
-title: "Error: Failed to Create Host-Only Adapter"
-date: 2014-03-07 20:50
-updated: 2014-03-07 20:50
-comments: true
-categories: [error, vagrant]
----
+Title: Error: Failed to Create Host-Only Adapter
+Date: 2014-03-07 20:50
+Modified: 2014-03-07 20:50
+Category: Programming
+Tags: error, vagrant
 
 When trying to run `vagrant up`, received error:
 

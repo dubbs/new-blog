@@ -1,11 +1,8 @@
----
-layout: post
-title: "Mounting an AFP Filesystem"
-date: 2013-09-23 13:35
-updated: 2013-09-23 13:35
-comments: true
-categories: [unix, mac]
----
+Title: Mounting an AFP Filesystem
+Date: 2013-09-23 13:35
+Modified: 2013-09-23 13:35
+Category: Programming
+Tags: unix, mac
 
 Here's a simple way to connect to an Apple Filing Protocol (AFP) based server and access shared files.
 

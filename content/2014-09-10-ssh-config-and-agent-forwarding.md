@@ -1,11 +1,8 @@
----
-layout: post
-title: "SSH Config and Agent Forwarding"
-date: 2014-09-10 21:50:59 -0600
-updated: 2014-09-11 11:14:59 -0600
-comments: true
-categories: [unix, ssh]
----
+Title: SSH Config and Agent Forwarding
+Date: 2014-09-10 21:50:59 -0600
+Modified: 2014-09-11 11:14:59 -0600
+Category: Programming
+Tags: unix, ssh
 
 Quick guide to setting up ssh config and agent forwarding.
 

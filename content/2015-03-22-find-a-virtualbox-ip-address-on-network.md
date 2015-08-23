@@ -1,11 +1,8 @@
----
-layout: post
-title: "Find a VirtualBox IP address on network"
-date: 2015-03-22 12:33:34 -0600
-modified: 2015-03-22 12:33:34 -0600
-comments: true
-categories: [vm]
----
+Title: Find a VirtualBox IP address on network
+Date: 2015-03-22 12:33:34 -0600
+Modified: 2015-03-22 12:33:34 -0600
+Category: Programming
+Tags: vm
 
 If you've recently connected to your VM, it should be in the arp cache.  
 Query the arp cache looking for a MAC address starting with `8:0:27`

@@ -1,11 +1,8 @@
----
-layout: post
-title: "Setup MySQL with a Launch Agent"
-date: 2015-02-14 12:25:36 -0600
-updated: 2015-02-14 12:25:36 -0600
-comments: true
-categories: [mysql]
----
+Title: Setup MySQL with a Launch Agent
+Date: 2015-02-14 12:25:36 -0600
+Modified: 2015-02-14 12:25:36 -0600
+Category: Programming
+Tags: mysql
 
 Install MySQL using brew:
 

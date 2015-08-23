@@ -1,11 +1,8 @@
----
-layout: post
-title: "Querying MySQL Configuration"
-date: 2013-09-23 12:40
-updated: 2013-09-23 12:40
-comments: true
-categories: mysql
----
+Title: Querying MySQL Configuration
+Date: 2013-09-23 12:40
+Modified: 2013-09-23 12:40
+Category: Programming
+Tags: mysql
  
 MySQL system variables can be queried using the [show variables](http://dev.mysql.com/doc/refman/5.7/en/show-variables.html) syntax:
  

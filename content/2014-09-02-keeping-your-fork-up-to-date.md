@@ -1,11 +1,8 @@
----
-layout: post
-title: "Keeping your git fork up-to-date"
-date: 2014-09-02 20:42:51 -0600
-updated: 2014-09-02 20:42:51 -0600
-comments: true
-categories: [git]
----
+Title: Keeping your git fork up-to-date
+Date: 2014-09-02 20:42:51 -0600
+Modified: 2014-09-02 20:42:51 -0600
+Category: Programming
+Tags: git
 
 When your fork falls behind, and it will, here's how to quickly sync it up with master.
 

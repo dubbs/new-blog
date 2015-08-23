@@ -1,11 +1,8 @@
----
-layout: post
-title: "Non-Blocking MySQL database export for InnoDB tables"
-date: 2014-08-17 16:03
-updated: 2014-08-17 16:03
-comments: true
-categories: [unix, mysql]
----
+Title: Non-Blocking MySQL database export for InnoDB tables
+Date: 2014-08-17 16:03
+Modified: 2014-08-17 16:03
+Category: Programming
+Tags: unix, mysql
 
 To quickly dump a large InnoDB database to file without locking it up:
 

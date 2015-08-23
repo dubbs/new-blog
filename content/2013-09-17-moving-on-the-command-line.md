@@ -1,11 +1,8 @@
----
-layout: post
-title: "Moving on the Command Line"
-date: 2013-09-17 20:13
-updated: 2013-09-17 20:13
-comments: true
-categories: unix
----
+Title: Moving on the Command Line
+Date: 2013-09-17 20:13
+Modified: 2013-09-17 20:13
+Category: Programming
+Tags: unix
 
 Moving along the command line will be a breeze, if you know the following shortcuts.
 

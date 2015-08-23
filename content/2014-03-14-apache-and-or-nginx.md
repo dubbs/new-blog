@@ -1,11 +1,8 @@
----
-layout: post
-title: "Apache and or Nginx"
-date: 2014-03-14 23:54
-udpated: 2014-03-14 23:54
-comments: true
-categories: [apache, nginx]
----
+Title: Apache and or Nginx
+Date: 2014-03-14 23:54
+Modified: 2014-03-14 23:54
+Category: Programming
+Tags: apache, nginx
 
 ## Apache
 

@@ -1,11 +1,8 @@
----
-layout: post
-title: "Manipulating Unix Routing Tables"
-date: 2015-02-07 12:25:20 -0600
-updated: 2015-02-07 12:25:20 -0600
-comments: true
-categories: [unix, mac]
----
+Title: Manipulating Unix Routing Tables
+Date: 2015-02-07 12:25:20 -0600
+Modified: 2015-02-07 12:25:20 -0600
+Category: Programming
+Tags: unix, mac
 
 For one of our latest projects, we needed to restrict incoming connections on the destination server prior to launching the our website.
 

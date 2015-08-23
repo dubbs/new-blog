@@ -1,11 +1,8 @@
----
-layout: post
-title: "Converting between formats"
-date: 2013-09-26 13:17
-updated: 2013-09-26 13:17
-comments: true
-categories: mac
----
+Title: Converting between formats
+Date: 2013-09-26 13:17
+Modified: 2013-09-26 13:17
+Category: Programming
+Tags: mac
 
 There are many tools you can use to convert between file formats.
 

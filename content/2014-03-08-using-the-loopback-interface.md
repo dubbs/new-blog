@@ -1,11 +1,8 @@
----
-layout: post
-title: "Using the Loopback Interface"
-date: 2014-03-08 15:14
-updated: 2014-03-08 15:14
-comments: true
-categories: mac
----
+Title: Using the Loopback Interface
+Date: 2014-03-08 15:14
+Modified: 2014-03-08 15:14
+Category: Programming
+Tags: mac
 
 The hosts file is used to map hostnames to ip addresses.
 

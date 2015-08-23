@@ -1,11 +1,8 @@
----
-layout: post
-title: "Unix Pipelines vs Redirection"
-date: 2013-09-25 20:05
-updated: 2013-09-25 20:05
-comments: true
-categories: unix
----
+Title: Unix Pipelines vs Redirection
+Date: 2013-09-25 20:05
+Modified: 2013-09-25 20:05
+Category: Programming
+Tags: unix
 
 Redirection is used to send data from standard streams to specific locations.
 

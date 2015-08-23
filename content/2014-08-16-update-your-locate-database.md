@@ -1,11 +1,8 @@
----
-layout: post
-title: "Update your locate database"
-date: 2014-08-16 16:15
-updated: 2014-08-16 16:15
-comments: true
-categories: [unix, locate]
----
+Title: Update your locate database
+Date: 2014-08-16 16:15
+Modified: 2014-08-16 16:15
+Category: Programming
+Tags: unix, locate
 
 The `locate` command is great for searching the entire filesystem for files:
 

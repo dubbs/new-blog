@@ -1,11 +1,8 @@
----
-layout: post
-title: "Cloud Computing Service Models"
-date: 2014-03-10 12:50
-updated: 2014-03-10 12:50
-comments: true
-categories: [iaas, paas, saas]
----
+Title: Cloud Computing Service Models
+Date: 2014-03-10 12:50
+Modified: 2014-03-10 12:50
+Category: Programming
+Tags: iaas, paas, saas
 
 ## IaaS (Infrastructure as a Service)
 

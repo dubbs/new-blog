@@ -1,11 +1,8 @@
----
-layout: post
-title: "SSL Certificate for Localhost"
-date: 2014-09-24 22:22:09 -0600
-updated: 2014-09-24 22:22:09 -0600
-comments: true
-categories: [ssl, apache]
----
+Title: SSL Certificate for Localhost
+Date: 2014-09-24 22:22:09 -0600
+Modified: 2014-09-24 22:22:09 -0600
+Category: Programming
+Tags: ssl, apache
 
 Create a self-signed certificate and move it to the apache conf
 directory.

@@ -1,11 +1,8 @@
----
-layout: post
-title: "Installing Solr 4 on CentOS 6"
-date: 2015-06-29 11:40:14 -0600
-modified: 2015-07-03 11:20:14 -0600
-comments: true
-categories: [centos, solr]
----
+Title: Installing Solr 4 on CentOS 6
+Date: 2015-06-29 11:40:14 -0600
+Modified: 2015-07-03 11:20:14 -0600
+Category: Programming
+Tags: centos, solr
 
 ## Verify CentOS Version
 ```bash

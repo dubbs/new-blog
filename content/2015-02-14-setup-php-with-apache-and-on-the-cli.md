@@ -1,11 +1,8 @@
----
-layout: post
-title: "Setup PHP with Apache and on the CLI"
-date: 2015-02-14 11:59:16 -0600
-updated: 2015-02-14 11:59:16 -0600
-comments: true
-categories: [apache, php, cli]
----
+Title: Setup PHP with Apache and on the CLI
+Date: 2015-02-14 11:59:16 -0600
+Modified: 2015-02-14 11:59:16 -0600
+Category: Programming
+Tags: apache, php, cli
 
 Install PHP using brew:
 
