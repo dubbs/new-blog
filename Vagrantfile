@@ -33,14 +33,10 @@ Vagrant.configure(2) do |config|
     pyenv local blog
     pip install pelican markdown
   fi
-
-  # bootstrap
-  #cd /vagrant
-  #pelican-quickstart
   
   # allow all connections
-  #iptables -I INPUT -j ACCEPT
-  #iptables-save | sudo tee /etc/sysconfig/iptables
+  iptables -I INPUT -j ACCEPT
+  iptables-save | sudo tee /etc/sysconfig/iptables
 
   SCRIPT
 
